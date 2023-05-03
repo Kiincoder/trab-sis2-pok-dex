@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+* {
+    color: aliceblue;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.02em;
+}
+
+body {
+    background-color: rgb(21, 21, 21);
+}
+
+h1 {
+    font-size: 3em;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 2000px;
+    margin: 0 auto;
+}
+
+.container>div {
+    flex: 1 1 190px;
+    margin: 10px;
+}
+
+.grass {
+    width: 190px;
+    background-color: rgba(5, 228, 86, 0.29);
+    border-radius: 30px;
+    text-align: center;
+}
+
+.fire {
+    width: 190px;
+    background-color: rgba(255, 68, 0, 0.671);
+    border-radius: 30px;
+    text-align: center;
+    margin-left: 40px;
+}
+
+.water {
+    width: 190px;
+    background-color: rgba(6, 129, 252, 0.29);
+    border-radius: 30px;
+    text-align: center;
+    margin-left: 40px;
+}
+
+.eletric {
+    width: 190px;
+    background-color: rgba(255, 204, 0, 0.762);
+    border-radius: 30px;
+    text-align: center;
+    margin-left: 40px;
+}
+
+.normal {
+    width: 190px;
+    background-color: rgba(192, 192, 192, 0.626);
+    border-radius: 30px;
+    text-align: center;
+    margin-left: 40px;
+}
+
+.poison {
+    width: 190px;
+    background-color: rgba(176, 82, 252, 0.29);
+    border-radius: 30px;
+    text-align: center;
+    margin-left: 40px;
+}
+
+.ghost {
+    width: 190px;
+    background-color: rgba(45, 0, 71, 0.29);
+    border-radius: 30px;
+    text-align: center;
+    margin-left: 40px;
+}
+
+.bug {
+    width: 190px;
+    background-color: rgba(251, 255, 5, 0.29);
+    border-radius: 30px;
+    text-align: center;
+    margin-left: 40px;
+}
+
+.dragon {
+    width: 190px;
+    background-color: rgba(75, 11, 252, 0.658);
+    border-radius: 30px;
+    text-align: center;
+    margin-left: 40px;
+}
+
+.psycho {
+    width: 190px;
+    background-color: rgba(254, 29, 213, 0.529);
+    border-radius: 30px;
+    text-align: center;
+    margin-left: 40px;
+}
+
+.flying {
+    width: 190px;
+    background-color: rgba(120, 246, 251, 0.29);
+    border-radius: 30px;
+    text-align: center;
+    margin-left: 40px;
+}
+
+.rock {
+    width: 190px;
+    background-color: rgba(97, 74, 1, 0.29);
+    border-radius: 30px;
+    text-align: center;
+    margin-left: 40px;
+}
+
+.ground {
+    width: 190px;
+    background-color: rgba(197, 107, 12, 0.816);
+    border-radius: 30px;
+    text-align: center;
+    margin-left: 40px;
+}
+
+.fighting {
+    width: 190px;
+    background-color: rgba(255, 38, 0, 0.29);
+    border-radius: 30px;
+    text-align: center;
+    margin-left: 40px;
+}
+
+.steel {
+    width: 190px;
+    background-color: rgba(216, 216, 216, 0.29);
+    border-radius: 30px;
+    text-align: center;
+    margin-left: 40px;
+}
+
+.ice {
+    width: 190px;
+    background-color: rgba(18, 236, 244, 0.617);
+    border-radius: 30px;
+    text-align: center;
+    margin-left: 40px;
+}
+
+.null {
+    width: 190px;
+    border-radius: 30px;
+    text-align: center;
+    margin-left: 40px;
+}
