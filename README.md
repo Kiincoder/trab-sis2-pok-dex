@@ -1,6 +1,6 @@
 # 🔴 Pokédex
 
-![img](pokedex.png)
+![img](./pokedex.png)
 
 O projeto consiste em uma pokédex bem simples, onde você pode visualizar os pokémons e suas informações bases, como tipo, status e atributos.
 
