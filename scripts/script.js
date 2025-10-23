@@ -8,7 +8,7 @@ const nextBtn = document.getElementById('nextBtn');
 const pageInfo = document.getElementById('pageInfo');
 const detailEl = document.getElementById('detail');
 
-let limit = 151;
+let limit = 20;
 let offset = 0;
 
 async function fetchJson(url) {
@@ -130,7 +130,7 @@ async function doSearch() {
     const card = document.createElement('article');
     card.className = 'card';
     card.innerHTML = `
-      <img class="poke-img" src="${data.sprites.other['official-artwork'].front_default || data.sprites.front_default}" alt="${data.name}" />
+      <img class="poke-img" src="${data.sprites}" alt="${data.name}" />
       <div class="id">${formatId(data.id)}</div>
       <div class="name">${data.name}</div>
       <div class="types">${data.types.map(t => `<span class="type ${typeClass(t.type.name)}">${t.type.name}</span>`).join('')}</div>
